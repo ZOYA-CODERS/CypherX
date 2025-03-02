@@ -18,32 +18,32 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~iiAESCLa#MWpK8jiaAPGOv8TvjxyDgIsUXbGdDB1mv6yAQHvLQX0' 
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'CypherX' 
+global.botname = process.env.BOT_NAME || 'ＺＯＹＡ ＭＤ' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '94702932200' 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'ᴍʀ ᴋᴀʟᴀɴᴀ ᴏꜰᴄ' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "Cypher" 
+global.packname = process.env.STICKER_PACK_NAME || "ＺＯＹＡ ＭＤ" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "X" 
+global.author = process.env.STICKER_AUTHOR_NAME || "ᴍʀ ᴋᴀʟᴀɴᴀ ᴏꜰᴄ" 
 
 //----------------------[ TIMEZONE ]--------------------//
 
-global.timezones = process.env.TIMEZONE || "Africa/Nairobi" 
+global.timezones = process.env.TIMEZONE || "Asia/Colombo" 
 //Don't edit this if you don't know!
 
 //----------------[ GITHUB DATABASE ]-----------------//
@@ -66,7 +66,7 @@ global.wm = process.env.GL_WM || "©CypherX"
 
 global.mess = { 
   done: '*Done*', 
-  success: '©CypherX', 
+  success: 'ＺＯＹＡ ＭＤ', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
